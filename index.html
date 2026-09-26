@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan M02 | Arisanti Nurlaili</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FFF9E6; /* Butter Yellow background */
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+            border: 2px solid #FFEFA6;
+        }
+        .badge {
+            background-color: #FFE156;
+            color: #594A00;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        h1 {
+            color: #2C2500;
+            margin-top: 0;
+        }
+        .desc {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: #FFFDF0;
+            border: 1px solid #FFEFA6;
+            padding: 15px 20px;
+            border-radius: 12px;
+        }
+        .card label {
+            font-size: 12px;
+            color: #8C7B1A;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .card span {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2C2500;
+        }
+        h2 {
+            color: #2C2500;
+            border-bottom: 2px solid #FFEFA6;
+            padding-bottom: 8px;
+            margin-top: 35px;
+        }
+        .devops-list {
+            list-style: none;
+            padding: 0;
+        }
+        .devops-item {
+            background: #FFFDF0;
+            margin-bottom: 12px;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #FFE156;
+        }
+        .devops-item strong {
+            color: #594A00;
+            font-size: 16px;
+        }
+        .devops-item p {
+            margin: 5px 0 0 0;
+            color: #555;
+            font-size: 14px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 13px;
+            color: #8C7B1A;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="badge">M02 • PENGEMBANGAN & OPERASI</div>
+        <h1>Latihan M02</h1>
+        <p class="desc">Pengembangan dan Operasi — sebuah latihan untuk memahami proses pengembangan, pengelolaan, dan pengoperasian aplikasi dalam lingkungan teknologi modern.</p>
+
+        <div class="info-grid">
+            <div class="card">
+                <label>Nama</label>
+                <span>Arisanti Nurlaili</span>
+            </div>
+            <div class="card">
+                <label>NIM</label>
+                <span>231112294</span>
+            </div>
+            <div class="card" style="grid-column: span 2;">
+                <label>Kelas</label>
+                <span>IF B Pagi</span>
+            </div>
+        </div>
+
+        <h2>Tahapan DevOps & Toolchain</h2>
+        <ul class="devops-list">
+            <li class="devops-item">
+                <strong>• DevOps Toolchain</strong>
+                <p>Kumpulan alat (tools) terintegrasi yang digunakan untuk mengotomatisasi tahapan pengembangan, pengujian, hingga deployment perangkat lunak.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Plan (Perencanaan)</strong>
+                <p>Tahap awal untuk menentukan tujuan proyek, merumuskan ide, membuat backlog, dan menyusun manajemen tugas atau fitur aplikasi.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Create (Pembuatan/Coding)</strong>
+                <p>Proses penulisan kode program dan pembangunan komponen aplikasi oleh para developer menggunakan bahasa pemrograman tertentu.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Verify (Pengujian/Verifikasi)</strong>
+                <p>Tahap pengujian kualitas kode secara otomatis (seperti menggunakan linter atau unit test) untuk memastikan tidak ada *error* atau *bug*.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Package (Pengemasan)</strong>
+                <p>Proses menggabungkan kode aplikasi beserta dependensinya ke dalam bentuk paket siap rilis (seperti kontainer Docker).</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Release (Rilis)</strong>
+                <p>Tahap penyaluran versi aplikasi yang sudah stabil agar siap untuk didistribusikan ke lingkungan produksi atau server.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Configure (Konfigurasi)</strong>
+                <p>Pengaturan infrastruktur, environment server, dan manajemen sistem pendukung agar aplikasi dapat berjalan dengan optimal.</p>
+            </li>
+            <li class="devops-item">
+                <strong>• Monitoring (Pemantauan)</strong>
+                <p>Proses pengawasan performa aplikasi dan server secara *real-time* untuk mendeteksi masalah atau gangguan secara cepat.</p>
+            </li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 Arisanti Nurlaili - Universitas Mikroskil
+        </div>
+    </div>
+
+</body>
+</html>
